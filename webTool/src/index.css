@@ -1,0 +1,26 @@
+.principal_topics,.sub_topics {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    /* color:red; */
+    
+}
+
+.upload, .container {
+    display:flex;
+    justify-content: center;
+}
+
+h3,h1{
+    text-align: center;
+}
+
+.upload div{
+    margin:4px;
+}
+
+
+.upload { 
+    margin-top: -15px
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./../src/index.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"> -->
+</head>
+
+<body>
+    <h1>TOPIC MODELING</h1>
+    <div class="upload">
+        <div class="principal_topics">
+            <h3>Principal</h3>
+            <div>
+                <label>Upload principal topics file</label>
+                <input id="upload_principal_topics" type="file" class="button is-link" />
+            </div>
+            <div>
+                <label>Upload description of principal topics</label>
+                <input id="upload_principal_topics_description" type="file" class="button is-link" />
+            </div>
+        </div>
+        <div class="sub_topics">
+            <h3>Sub Topics</h3>
+            <div>
+                <label>Upload sub topics file</label>
+                <input id="upload_sub_topics" type="file" class="button is-link" />
+            </div>
+
+            <div>
+                <label>Upload description of sub topics</label>
+                <input id="upload_sub_topics_description" type="file" class="button is-link" />
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="principal_topics">
+            <div id="chart_principal_topics"></div>
+            <div id="desc_principal_topics"></div>
+
+        </div>
+        <div class="sub_topics">
+            <div id="chart_sub_topics"></div>
+            <div id="desc_sub_topics"></div>
+        </div>
+        <!-- <button id='large'>Large</button>
+    <button id='small'>small</button>
+    <button id='auto'>Auto</button> -->
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<!-- <script src="https://code.highcharts.com/stock/highstock.js"></script> -->
+<script type="text/javascript" src="javascript/graph_config.js"></script>
+<script type="text/javascript" src="javascript/build_data_graph.js"></script>
+<script type="text/javascript" src="javascript/upload_raw_data.js"></script>
+
+</html>
